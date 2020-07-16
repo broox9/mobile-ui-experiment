@@ -1,0 +1,11 @@
+.main-content {
+  background-color: lightgray;
+  padding: 20px;
+  border: green;
+}
+
+.nav-link {
+  display: block;
+  padding: 16px;
+  border: #777;
+}

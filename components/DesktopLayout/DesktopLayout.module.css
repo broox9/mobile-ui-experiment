@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  background-color: lightblue;
+  color: darkblue;
+  padding: 8px;
+}
+
+.nav a {
+  display:block;
+  color: #333;
+  margin: 0 16px;
+  border: 1px solid lightcoral;
+  text-decoration: none;
+}
+
+.selected {
+  color: black;
+  font-weight: bold;
+}
+
+.sub-navigation {
+  flex-grow: 0;
+  flex-basis: 10em;
+  background-color: gray;
+}
+
+.sub-navigation a {
+    display:block;
+}
+
+.main-content {
+  display: flex;
+  background-color: lightgray;
+  border: blue;
+  padding: 20px;
+}
