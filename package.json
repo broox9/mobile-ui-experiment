@@ -13,8 +13,10 @@
   "license": "ISC",
   "dependencies": {
     "next": "^9.4.4",
+    "pcln-design-system": "^3.5.3",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "styled-components": "^4.4.1"
   },
   "devDependencies": {
     "@types/node": "^14.0.22",

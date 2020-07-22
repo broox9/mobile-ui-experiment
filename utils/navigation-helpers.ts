@@ -19,30 +19,34 @@ const navigationConfig : NavConfig = {
       link: '/'
     },
     {
-      text: 'about',
-      link: '/about',
+      text: 'trips',
+      link: '/trips',
       subNav: [
         {
-          text: 'about Brookes',
-          link: '/brookes',
+          text: 'trips current',
+          link: '#current',
         },
         {
-          text: 'about Tracie',
-          link: '/tracie',
+          text: 'trips past',
+          link: '#past',
+        },
+        {
+          text: 'trips upcoming',
+          link: '#upcoming',
         },
       ]
     },
     {
-      text: 'contact',
-      link: '/contact',
+      text: 'profile',
+      link: '/profile',
       subNav: [
         {
-          text: 'customer service',
-          link: '/cares'
+          text: 'update contact info',
+          link: '/profile#contact'
         },
         {
-          text: 'vendor',
-          link: '/vendor'
+          text: 'update card info',
+          link: '/profile#card'
         }
       ]
     },

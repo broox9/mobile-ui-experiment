@@ -9,6 +9,7 @@ export default function Contact ({ serverContext } : any) {
   return (
     <Layout>
         <form name="cares_form">
+          <a name="contact" />
           <h4>Cares form</h4>
           <fieldset>
             <div>
@@ -28,6 +29,7 @@ export default function Contact ({ serverContext } : any) {
         </form>
 
       <form name="vendor_form">
+        <a name="card" />
         <h4>Vendor form</h4>
         <fieldset>
           <div>

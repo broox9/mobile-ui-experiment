@@ -9,18 +9,18 @@ const aboutNav = navConfig.items.find(nav => nav.link === '/about')
 
 
 
-export default function About (props: any) {
+export default function Trips (props: any) {
   const router = useRouter()
   console.log('About Props', props, router)
   return (
     <Layout>
-      <h3>What about us</h3>
+      <h3>This is the trips page</h3>
       <Link href='/'>
         <a>back to home</a>
       </Link>
       <br />
-      <Link href='/contact'>
-        <a>contact page</a>
+      <Link href='/profile'>
+        <a>profile page</a>
       </Link>
     </Layout>
   )
